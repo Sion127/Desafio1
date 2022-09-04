@@ -1,0 +1,152 @@
+body {
+  background-color: #E5E5E5;
+}
+
+.div__container {
+  width: auto;
+  height: auto;
+  padding-top: 35px;
+}
+.div__container .div__header {
+  width: auto;
+}
+.div__container .div__header .ul__nav--items {
+  display: flex;
+  list-style: none;
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  width: auto;
+}
+.div__container .div__header .ul__nav--items .button:hover {
+  -webkit-text-decoration: underline 1px solid blue;
+          text-decoration: underline 1px solid blue;
+  border: 2px solid blue;
+}
+.div__container .div__header .div__unordered-list {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.div__container .div__header .li__logo {
+  height: 20px;
+}
+.div__container .div__header .img__Pazili {
+  align-items: flex-start;
+}
+.div__container .div__header .li__item {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 1px;
+  margin-right: 5px;
+}
+.div__container .div__header .button__menu {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  margin: 25px;
+  border-radius: 8px;
+  background-color: #E5E5E5;
+}
+.div__container .div__header .li__item--contactanos-white-black .button__menu {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  margin: 25px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+.div__container .div__main .div__h3--tocar-piano-858585 {
+  color: #858585;
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  font-size: 120%;
+  margin-top: 38 px;
+}
+.div__container .div__main .div__h1--Instituto {
+  text-align: center;
+  font-family: "Abril Fatface";
+  font-size: 200%;
+  margin-top: -18px;
+}
+.div__container .div__main .div__buttons--black-white {
+  display: flex;
+  justify-content: center;
+}
+.div__container .div__main .div__buttons--black-white .button:hover {
+  -webkit-text-decoration: underline 1px solid blue;
+          text-decoration: underline 1px solid blue;
+  border: 2px solid blue;
+}
+.div__container .div__main .div__buttons--black-white .button__menu--negro {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  margin: 25px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.div__container .div__main .div__buttons--black-white .button__menu--blanco {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  margin: 25px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.div__container .div__main .div__imagen--piano1 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 11px;
+}
+.div__container .div__main .div__iconos--social-media {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.div__container .div__main .div__iconos--social-media .div__icon--facebook {
+  border-radius: 100px;
+  border: 1px solid black;
+  padding: 11px;
+  margin: 169px;
+  margin-right: 543px;
+  margin-top: -220px;
+  display: flex;
+  justify-content: end;
+}
+.div__container .div__main .div__iconos--social-media .div__icon--likedin {
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 9px;
+  margin: 76px;
+  margin-right: 543px;
+  margin-top: -136px;
+  display: flex;
+  justify-content: end;
+}
+.div__container .div__main .div__iconos--social-media .div__icon--twitter {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 9px;
+  margin: 76px;
+  margin-right: 543px;
+  margin-top: -43px;
+  display: flex;
+  justify-content: end;
+}/*# sourceMappingURL=sytles.css.map */
