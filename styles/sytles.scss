@@ -48,7 +48,7 @@
 @mixin cursor-hover{
     .button:hover{
         text-decoration: underline 1px solid blue;
-        border: 2px solid blue;
+        border: 1px solid blue;
     }
 }
 
@@ -68,10 +68,8 @@ body {
             display: flex;
             list-style: none;
             font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-            width: auto;
-            @include cursor-hover;
-
-            
+            width: 1600px;
+            @include cursor-hover;            
         }
 
         .div__unordered-list{
@@ -81,8 +79,13 @@ body {
             justify-content: flex-end;
         }
 
+        .div__img--logo{
+            width: 500px;
+        }
+        
         .li__logo{
             height: 20px;
+            width: auto;
         }
 
         .img__Pazili{

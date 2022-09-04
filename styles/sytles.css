@@ -14,12 +14,12 @@ body {
   display: flex;
   list-style: none;
   font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-  width: auto;
+  width: 1600px;
 }
 .div__container .div__header .ul__nav--items .button:hover {
   -webkit-text-decoration: underline 1px solid blue;
           text-decoration: underline 1px solid blue;
-  border: 2px solid blue;
+  border: 1px solid blue;
 }
 .div__container .div__header .div__unordered-list {
   height: 70px;
@@ -27,8 +27,12 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
+.div__container .div__header .div__img--logo {
+  width: 500px;
+}
 .div__container .div__header .li__logo {
   height: 20px;
+  width: auto;
 }
 .div__container .div__header .img__Pazili {
   align-items: flex-start;
@@ -79,7 +83,7 @@ body {
 .div__container .div__main .div__buttons--black-white .button:hover {
   -webkit-text-decoration: underline 1px solid blue;
           text-decoration: underline 1px solid blue;
-  border: 2px solid blue;
+  border: 1px solid blue;
 }
 .div__container .div__main .div__buttons--black-white .button__menu--negro {
   display: flex;
