@@ -174,12 +174,13 @@ body{
     }
 }
 
-@media screen and (max-width: 600px) {
-    .li__item--none{
-            display: none !important;
+@media screen and (max-width: 600px){
+
+    .div__social-media{
+        display: none;
     }
 
-    .div__iconos--social-media{
-        display: none !important;
+    .nav__menu-container > .div__box--link{
+        display: none;
     }
-} 
+}
